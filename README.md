@@ -1,9 +1,3 @@
-# Kaia.github.io
-
-hi
-=======
-# KaiaProject.github.io
-
 # KaiaProject.github.io
 
 
