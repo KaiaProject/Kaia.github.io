@@ -8,7 +8,7 @@ Student names:
 - Gokhan Duzel (300063515)
 
 Organization name: 
-Kaia
+KaiaProject
 
 Product name:
 Kaia
