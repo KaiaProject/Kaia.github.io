@@ -14,6 +14,6 @@ Product name:
 Kaia
 
 Product description:
-Kaia is a collection of smart designer handbags and wallets that contain GPS trackers, as well as Touch ID security, which allows its customers to protect their most valuable items.
+Kaia is a collection of smart designer handbags and wallets that contain GPS trackers, as well as Touch ID security, which allows its customers to protect their most valuable items. An amazing feeling of security!
 
 ##
