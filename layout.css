@@ -2,107 +2,111 @@ body {
 	position: relative;
 	text-align: left;
 }
-/*class="resize" in html to make an image smaller*/
-.resize {
-	max-width:20%;
-	max-height:20%;
+.logoformat {
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	max-width: 20%;
+	max-height: 20%;
+}
+.cartformat {
+	position: relative;
+	top: -5px;
+	width:65%;
 }
 /*The menu with various pages like Home, Men, Women, Team, and Tracker*/
 .menu {
 	position: absolute;
 	z-index: 2;
-	border:none;
-	border:0px;
-	margin:0px;
-	padding:0px;
-	width: 100%;
-	top: 110px;
-	font: 67.5% "Lucida Sans Unicode", sans-serif;
-	font-size:14px;
-	font-weight:bold;
+	border: none;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	top: 9%;
+	right: 5%;
+	font: 67.5% Arial;
+	font-size: 14px;
+	font-weight: bold;
 }
 /*Unordered list for the different buttons in the menu*/
 .menu ul {
-	background:#333333;
-	height:35px;
-	list-style:none;
-	margin:0;
-	padding:0;
+	height: 35px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 /*Each item in the menu bar list*/	
 .menu ul li {
-	float:left;
-	padding:0px;
-	background:#333333;
+	float: left;
+	padding: 0px;
 }
 /*Links in the menu bar*/
 .menu ul li a {
 	/*Text colour*/
-	color:#cccccc;
-	display:block;
-	font-weight:normal;
-	line-height:35px;
-	margin:0px;
-	padding:0px 25px;
-	text-align:center;
-	text-decoration:none;
+	color: #000000;
+	display: block;
+	font-weight: normal;
+	font-size: 140%;
+	line-height: 35px;
+	margin: 0px;
+	padding: 0px 25px;
+	text-align: center;
 }
 /*Link of menu bar when hovering over that item in the menu bar*/
 .menu ul li:hover a {
 	position: relative;
-	background: #2580a2;
-	color:#FFFFFF;
-	text-decoration:none;
+	text-shadow: 1px 1px 2px #6e6e6e;
+	color: #000000;
 	z-index: 100001;
 }
 /*Dropdown list inside the menu bar*/
 .menu ul li ul.sublist {
-	background:#333333;
-	display:none;
-	height:auto;
-	padding:0px;
-	margin:0px;
-	border:0px;
-	position:absolute;
-	width:225px;
-	z-index:200;
+	background: #333333;
+	display: none;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	position: absolute;
+	width: 225px;
+	z-index: 200;
 }
 /*Show dropdown when hovering over item in menu list*/
 .menu ul li:hover ul.sublist {
-	display:block;
+	display: block;
 }
 /*Each item in a dropdown list inside the menu bar. Makes a dropdown menu inside the menu bar appear vertical*/
 .menu ul li ul.sublist li.sublist {
-	display:block;
-	float:none;
-	margin:0px;
-	padding:0px;
-	width:225px;
+	display: block;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	width: 225px;
 }
 /*Link in a dropdown menu when hovering over the menu bar item for it*/
 .menu ul li:hover ul li a {
 	/*Background depends on if second li is hovered on*/
-	background:none;
+	background: none;
 }
 /*Each link in a dropdown list*/
 .menu ul li ul.sublist li.sublist a {
-	color:#cccccc;
-	display:block;
-	height:35px;
-	font-size:12px;
-	font-style:normal;
-	margin:0px;
-	padding:0px 10px 0px 15px;
-	text-align:left;
+	color: #cccccc;
+	display: block;
+	height: 35px;
+	font-size: 12px;
+	font-style: normal;
+	margin: 0px;
+	padding: 0px 10px 0px 15px;
+	text-align: left;
 }
 /*When hovering over an item in the dropdown*/
 .menu ul li:hover ul.sublist li.sublist:hover a {
 	position: relative;
-	z-index:2;
-	background:#2580a2;
-	border:0px;
-	color:#ffffff;
-	text-decoration:none;
+	z-index: 2;
+	background: #2580a2;
+	border: 0px;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 		
