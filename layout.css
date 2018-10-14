@@ -127,10 +127,11 @@ body {
 }
 
 .media {
-	position: relative;
+	position: absolute;
 	
 	height: 160px;
-	bottom: 0%;
+	width: 100%;
+	bottom: 0;
 	
 	z-index: 3;
 	border: 0px;
@@ -144,7 +145,7 @@ body {
 }
 .media .appbox {
 	float: left;
-	position: absolute;
+	position: relative;
 	left: 0px;
 	top: 15px;
 	width: 300px;
@@ -158,9 +159,10 @@ body {
 }
 .media .storebox {
 	float: left;
-	position: absolute;
-	left: 45%;
+	position: relative;
+	left: 20%;
 	top: 15px;
+	width: 300px;
 	text-align: center;
 }
 .media .storebox .service {
@@ -169,15 +171,16 @@ body {
 }
 .media .followbox {
 	float: right;
-	position: absolute;
-	left: 90%;
+	position: relative;
+	right: 0%;
 	top: 15px;
+	width: 250px;
 	text-align: center;
 }
 /*Format for social media icons*/
 .media .followbox .iformat {
-	max-width: 25%;
-	max-height: 25%;
+	max-width: 14%;
+	max-height: 14%;
 }
 .media .followbox .shipping {
 	position: relative;
