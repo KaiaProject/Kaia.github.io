@@ -1,0 +1,12 @@
+.indeximages {
+	min-height: 900px;
+	padding-bottom: 20px;
+}
+.indeximages ul li {
+	
+	list-style: none;
+	float: left;
+	padding: 10px;
+	position: relative;
+	top: 150px;
+}	
