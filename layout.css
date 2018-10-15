@@ -185,19 +185,4 @@ body {
 .media .followbox .shipping {
 	position: relative;
 	top: 8px;
-} .tarrak{
-	position: relative;
-	left:700px;
-	top:-200px;
-bottom:0px;
-}
-.fs {
-        display: inline-block;
-    }
-
-.sol {
-	
-	padding-left:200px;
-	padding-top:200px;
-	padding-bottom:0px;
 }
