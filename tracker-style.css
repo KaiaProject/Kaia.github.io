@@ -1,0 +1,21 @@
+.tarrak {
+	position: absolute;
+	left:700px;
+	top: 200px;
+}
+.fs {
+	display: inline-block;
+}
+.sol {
+	padding-left:200px;
+	padding-top:200px;
+	padding-bottom:0px;
+}
+.fs p {
+	margin: 0;
+	padding-bottom: 0;
+	font-family: Verdana;
+}
+.submit {
+	font-family: Verdana;
+}

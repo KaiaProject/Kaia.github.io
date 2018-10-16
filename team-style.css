@@ -1,0 +1,46 @@
+/*Replace code below with something useful*/
+.team {
+	font-size: 21px;
+	position: static;
+	top: 150px;
+	left: 2%;
+	min-height: 900px;
+	padding-bottom: 20px;
+}
+
+.team .paragraph {
+	font-size: 20px;
+	position: absolute;
+	top: 150px;
+	width: 1500px;
+	font: 70% Verdana;
+	left: 1%;
+	min-height: 500px;
+}
+
+.team .fingerprint {
+	position: relative;
+	top: 550px;
+	left: 15%;
+	width: 15%;
+	height: 15%;
+}
+
+.team .x {
+	position: relative;
+	top: 550px;
+	left: 25%;
+	width: 10%;
+	height: 15%;
+}
+
+.team .kaia {
+	position: relative;
+	top: 550px;
+	left: 35%;
+	width: 20%;
+	height: 15%;
+}
+
+
+

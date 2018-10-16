@@ -1,0 +1,106 @@
+/*Each item in the bags for women*/
+
+.bags {
+	min-height: 1400px;
+	padding-bottom: 20px;
+}
+.bags a {
+	color: black;
+}
+.bags ul li {
+	list-style: none;
+	float: left;
+	padding: 50px;
+	position: relative;
+	top: 150px;
+}
+.bags .firstbag {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.bags .secondbag {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.bags .thirdbag {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.bags .fourthbag {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.bags .fifthbag {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.bags .sixthbag {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+
+.wallets {
+	min-height: 1400px;
+	padding-bottom: 20px;
+}
+.wallets a {
+	color: black;
+}
+.wallets ul li {
+	list-style: none;
+	float: left;
+	padding: 50px;
+	position: relative;
+	top: 150px;
+}	
+.wallets .firstwallet {
+	font: 67.5% Verdana;
+	text-align: center;
+}
+ .wallets .secondwallet {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+ .wallets .thirdwallet {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.wallets .fourthwallet {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.wallets .fifthwallet {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+.wallets .sixthwallet {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+ /*Each item in the cardcases page*/
+.cardcases {
+	min-height: 800px;
+	padding-bottom: 20px;
+}
+.cardcases a {
+	color: black;
+}
+.cardcases ul li {
+	list-style: none;
+	float: left;
+	padding: 50px;
+	position: relative;
+	top: 150px;
+}	
+.cardcases .firstcardcase {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+ .cardcases .secondcardcase {
+	text-align: center;
+	font: 67.5% Verdana;
+}
+ .cardcases .thirdcardcase {
+	text-align: center;
+	font: 67.5% Verdana;
+}
