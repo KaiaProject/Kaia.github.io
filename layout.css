@@ -65,7 +65,7 @@ body {
 /*Link of menu bar when hovering over that item in the menu bar*/
 .menu ul li:hover a {
 	position: relative;
-	text-shadow: 1px 1px 2px #6e6e6e;
+	text-shadow: 2px 2px 3px #474747;
 	color: #000000;
 	z-index: 100001;
 }
