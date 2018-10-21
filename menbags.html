@@ -9,7 +9,7 @@
 		<ul>
 			<li><a href='index.html'>HOME</a></li>
 			
-			<li><a href='men.html'>MEN</a>
+			<li><a><u>MEN</u></a>
 				<ul class = 'sublist'>
 					<li class = 'sublist'><a href='menbags.html'>BAGS</a></li>
 					<li class = 'sublist'><a href='menwallets.html'>WALLETS</a></li>
@@ -17,7 +17,7 @@
 				</ul>
 			</li>
 			
-			<li><a href='women.html' target='_self'>WOMEN</a>
+			<li><a><u>WOMEN</u></a>
 				<ul class = 'sublist'>
 					<li class = 'sublist'><a href='womenbags.html'>BAGS</a></li>
 					<li class = 'sublist'><a href='womenwallets.html'>WALLETS</a></li>
@@ -39,21 +39,143 @@
 			<div class='firstbag'>
 				<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:350px;height:400px;'>
 				<p>Checkered Paris Bag<br><i>$3, 100</i></br></p>
-				<p><a href='menbags.html'>Add to Cart</a></p>
+				<button id="myBtn1">Add to Cart</button>
+
+				
+				<div id="myModal1" class="modal">
+
+					
+					<div class="modal-content">
+						<span class="close1">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
+
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal1');
+
+					
+					var btn = document.getElementById("myBtn1");
+
+					
+					var span = document.getElementsByClassName("close1")[0];
+
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>	
 			</div>
 			</li>
 			<li>
 			<div class='secondbag'>
 				<img src='image\mensecondbag.jpg' alt='Dark Sky Backpack' style='width:350px;height:400px;'>
 				<p>Dark Sky Backpack<br><i>$2, 300</i></br></p>
-				<p><a href='menbags.html'>Add to Cart</a></p>
+				<button id="myBtn2">Add to Cart</button>
+
+				
+				<div id="myModal2" class="modal">
+
+					
+					<div class="modal-content">
+						<span id="close2" class="close2">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image/mensecondbag.jpg' alt='Dark Sky Backpack' style='width:200px;height:220px;'>
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal2');
+
+					
+					var btn = document.getElementById("myBtn2");
+
+					
+					var span = document.getElementsByClassName("close2")[0];
+
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+				
+
 			</div>
 			</li>
 			<li>
 			<div class='thirdbag'>
 				<img src='image\menthirdbag.jpg' alt='Leather Zip Bag' style='width:350px;height:400px;'>
 				<p>Leather Zip Bag<br><i>$4, 000</i></br></p>
-				<p><a href='menbags.html'>Add to Cart</a></p>
+				<button id="myBtn3">Add to Cart</button>
+
+				
+				<div id="myModal3" class="modal">
+
+					
+					<div class="modal-content">
+						<span id="close3" class="close3">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\menthirdbag.jpg' alt='Leather Zip Bag' style='width:200px;height:220px;'>
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal3');
+
+					
+					var btn = document.getElementById("myBtn3");
+
+					
+					var span = document.getElementsByClassName("close3")[0];
+
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+				
+
 			</div>
 			</li>
 			<br>
@@ -61,21 +183,143 @@
 			<div class='fourthbag'>
 				<img src='image\menfourthbag.jpg' alt='Small Checkered Cross Body Bag' style='width:350px;height:400px;'>
 				<p>Small Checkered Cross Body Bag<br><i>$990</i></br></p>
-				<p><a href='menbags.html'>Add to Cart</a></p>
+				<button id="myBtn4">Add to Cart</button>
+
+				
+				<div id="myModal4" class="modal">
+
+					
+					<div class="modal-content">
+						<span id="close4" class="close4">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\menfourthbag.jpg' alt='Small Checkered Cross Body Bag' style='width:200px;height:220px;'>
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal4');
+
+					
+					var btn = document.getElementById("myBtn4");
+
+					
+					var span = document.getElementsByClassName("close4")[0];
+
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+				
+
 			</div>
 			</li>
 			<li>
 			<div class='fifthbag'>
 				<img src='image\menfifthbag.jpg' alt='Forest Square Cross Body Bag' style='width:350px;height:400px;'>
 				<p>Forest Square Cross Body Bag<br><i>$1, 500</i></br></p>
-				<p><a href='menbags.html'>Add to Cart</a></p>
+				<button id="myBtn5">Add to Cart</button>
+
+				
+				<div id="myModal5" class="modal">
+
+					
+					<div class="modal-content">
+						<span id="close5" class="close5">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\menfifthbag.jpg' alt='Forest Square Cross Body Bag' style='width:200px;height:220px;'>
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal5');
+
+					
+					var btn = document.getElementById("myBtn5");
+
+					
+					var span = document.getElementsByClassName("close5")[0];
+
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+				
 			</div>
 			</li>
 			<li>
 			<div class='sixthbag'>
 				<img src='image\mensixthbag.jpg' alt='Black Leather Business Bag' style='width:350px;height:400px;'>
 				<p>Black Leather Business Bag<br><i>$4, 500</i></br></p>
-				<p><a href='menbags.html'>Add to Cart</a></p>
+				<button id="myBtn6">Add to Cart</button>
+
+				
+				<div id="myModal6" class="modal">
+
+					
+					<div class="modal-content">
+						<span id="close6" class="close6">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\mensixthbag.jpg' alt='Black Leather Business Bag' style='width:200px;height:220px;'>
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal6');
+
+					
+					var btn = document.getElementById("myBtn6");
+
+					
+					var span = document.getElementsByClassName("close6")[0];
+
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+				
+
 			</div>
 			</li>
 		</ul>

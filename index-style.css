@@ -1,12 +1,17 @@
-.indeximages {
-	min-height: 900px;
-	padding-bottom: 20px;
-}
-.indeximages ul li {
-	
+.indextext {
 	list-style: none;
 	float: left;
-	padding: 10px;
+	padding: 100px;
 	position: relative;
-	top: 150px;
-}	
+	top: 40px;
+	bottom: 0px;
+	text-align: center;
+	font: 200% Verdana;
+	width: 90%;
+	height: 20%;
+}
+
+.media {
+	top: 2400px;
+}
+
