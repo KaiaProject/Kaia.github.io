@@ -1,5 +1,6 @@
 <head>
 	<link rel='stylesheet' type='text/css' href='layout.css'>
+	<link rel='stylesheet' type='text/css' href='cart-style.css'>
 </head>
 
 <body>
@@ -8,7 +9,7 @@
 		<ul>
 			<li><a href='index.html'>HOME</a></li>
 			
-			<li><a href='men.html'>MEN</a>
+			<li><a href='#' onclick="return false;">MEN</a>
 				<ul class = 'sublist'>
 					<li class = 'sublist'><a href='menbags.html'>BAGS</a></li>
 					<li class = 'sublist'><a href='menwallets.html'>WALLETS</a></li>
@@ -16,7 +17,7 @@
 				</ul>
 			</li>
 			
-			<li><a href='women.html' target='_self'>WOMEN</a>
+			<li><a href='#' onclick="return false;">WOMEN</a>
 				<ul class = 'sublist'>
 					<li class = 'sublist'><a href='womenbags.html'>BAGS</a></li>
 					<li class = 'sublist'><a href='womenwallets.html'>WALLETS</a></li>
@@ -29,8 +30,9 @@
         </ul>
     </div>
 	
-	<!--Code should go here, between menu and media divs-->
-	<img src='http://blog.elastoproxy.com/wp-content/uploads/2016/06/chinatwo.jpg'>
+	<div class='cart'>
+	<p>Your selected items will appear here.</p>
+	</div>
 	
 	<div class='media'>
 		<div class = 'appbox'>
