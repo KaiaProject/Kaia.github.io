@@ -5,11 +5,11 @@
 
 <body>
 	<div class='menu'>
-		<img class='logoformat' src='image\logo.png'>
+		<a href='index.html'><img class='logoformat' src='image\logo.png'></a>
 		<ul>
 			<li><a href='index.html'>HOME</a></li>
 			
-			<li><a href='men.html'>MEN</a>
+			<li><a href='#' onclick="return false;">MEN</a>
 				<ul class = 'sublist'>
 					<li class = 'sublist'><a href='menbags.html'>BAGS</a></li>
 					<li class = 'sublist'><a href='menwallets.html'>WALLETS</a></li>
@@ -17,7 +17,7 @@
 				</ul>
 			</li>
 			
-			<li><a href='women.html' target='_self'>WOMEN</a>
+			<li><a href='#' onclick="return false;">WOMEN</a>
 				<ul class = 'sublist'>
 					<li class = 'sublist'><a href='womenbags.html'>BAGS</a></li>
 					<li class = 'sublist'><a href='womenwallets.html'>WALLETS</a></li>
@@ -29,22 +29,24 @@
 			<li><a href='cart.html'><img class='cartformat' src='image\cart.png'></a></li>
         </ul>
     </div>
+	
 	<!--Code should go here, between menu and media divs-->
-	<form class="sol" action="/action_page.php" style="background-color:#d2d2d2;">
+	<form class="sol" action='' style="background-color:#d2d2d2;">
 
-	<fieldset class='fs'>
-		<legend>
-		<p>Sign in:</p></legend>
-		<p>
-		  Username:<br>
-		  <input type="text" name="Username" value="">
-		  <br>
-		  Password:<br>
-		  <input type="text" name="Password" value="">
-		  <br><br>
-		  <input class='submit' type="submit" value="Submit">
-		 </p>
-	</fieldset>
+		<fieldset class='fs'>
+			<legend>
+				<p>Sign in:</p>
+			</legend>
+			<p>
+			  Username:<br>
+			  <input type="text" name="Username" value="">
+			  <br>
+			  Password:<br>
+			  <input type="text" name="Password" value="">
+			  <br><br>
+			  <button type="button" class="submit">Submit</button>
+			 </p>
+		</fieldset>
 
 	</form> 
 	<img class="tarrak" src="image\capture.png">

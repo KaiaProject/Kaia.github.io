@@ -1,0 +1,202 @@
+body {
+	position: relative;
+	text-align: left;
+	/*Adds a horizontal scroll bar if the website is resized too small horizontally*/
+	background-color: #d2d2d2;
+	margin: 0;
+}
+/*The menu with various pages like Home, Men, Women, Team, and Tracker*/
+.menu {
+	position: fixed;
+	min-width: 1000px;
+	width: 100%;
+	height: 140px;
+	
+	top: 0px;
+	
+	z-index: 3;
+	border: 0px;
+	margin: 0;
+	padding: 0;
+	font: 67.5% Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #7d8491;
+}
+/*Unordered list for the different buttons in the menu*/
+.menu ul {
+	position: absolute;
+	float: right;
+	height: 80px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	min-width: 740px;
+}
+@media all and (max-width: 1160px) {
+	.menu ul {
+		left: 400px;
+	}
+}
+@media all and (min-width: 801px) {
+	.menu ul {
+		right: 0px;
+	}
+}
+/*Each item in the menu bar list*/	
+.menu ul li {
+	position: relative;
+	top: 55px;
+	float: left;
+	padding: 0px;
+}
+/*Links in the menu bar*/
+.menu ul li a {
+	/*Text colour*/
+	color: #000000;
+	display: block;
+	font-weight: normal;
+	font-size: 140%;
+	line-height: 35px;
+	margin: 0px;
+	padding: 0px 25px;
+	text-align: center;
+}
+/*Link of menu bar when hovering over that item in the menu bar*/
+.menu ul li:hover a {
+	position: relative;
+	text-shadow: 2px 2px 3px #474747;
+	color: #000000;
+	z-index: 100001;
+}
+/*Dropdown list inside the menu bar*/
+.menu ul li ul.sublist {
+	background: #333333;
+	display: none;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	position: absolute;
+	min-width: 100%;
+	text-align: center;
+	z-index: 200;
+}
+/*Show dropdown when hovering over item in menu list*/
+.menu ul li:hover ul.sublist {
+	display: block;
+}
+/*Each item in a dropdown list inside the menu bar. Makes a dropdown menu inside the menu bar appear vertical*/
+.menu ul li ul.sublist li.sublist {
+	position: relative;
+	top: 0px;
+	display: block;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+}
+/*Link in a dropdown menu when hovering over the menu bar item for it*/
+.menu ul li:hover ul li a {
+	/*Background depends on if second li is hovered on*/
+	background: none;
+}
+/*Each link in a dropdown list*/
+.menu ul li ul.sublist li.sublist a {
+	color: #cccccc;
+	display: block;
+	height: 35px;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+/*When hovering over an item in the dropdown*/
+.menu ul li:hover ul.sublist li.sublist:hover a {
+	position: relative;
+	z-index: 2;
+	background: #5a7781;
+	border: 0px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.menu .cartformat {
+	float: none;
+	position: relative;
+	top: -5px;
+	width:65%;
+}
+.menu .cartformat:hover {
+	width: 75%;
+	top: -8px;
+}
+.menu .logoformat {
+	position: relative;
+	float: left;
+	top: 22px;
+	left: 3%;
+	max-width: 70%;
+	max-height: 70%;
+	width: auto;
+	height: auto;
+}
+.media {
+	position: absolute;
+	
+	height: 160px;
+	width: 100%;
+	bottom: 0;
+	
+	z-index: 3;
+	border: 0px;
+	margin: 0;
+	padding: 0;
+	font: 67.5% Verdana;
+	font-size: 16px;
+	background-size: cover;
+	background-repeat: no-repeat center center;
+	background-color: #7d8491;
+}
+.media .appbox {
+	float: left;
+	position: relative;
+	left: 0px;
+	top: 15px;
+	width: 300px;
+	text-align: center;
+}
+.media .appbox .appformat {
+	position: relative;
+	top: 20px;
+	max-width: 50%;
+	max-height: 50%;
+}
+.media .storebox {
+	float: left;
+	position: relative;
+	left: 20%;
+	top: 15px;
+	width: 300px;
+	text-align: center;
+}
+.media .storebox .service {
+	position: relative;
+	top: 9px;
+}
+.media .followbox {
+	float: right;
+	position: relative;
+	right: 0%;
+	top: 15px;
+	width: 250px;
+	text-align: center;
+}
+/*Format for social media icons*/
+.media .followbox .iformat {
+	max-width: 14%;
+	max-height: 14%;
+}
+.media .followbox .shipping {
+	position: relative;
+	top: 8px;
+}
