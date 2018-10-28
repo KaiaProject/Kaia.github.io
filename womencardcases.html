@@ -1,0 +1,162 @@
+<head>
+	<link rel='stylesheet' type='text/css' href='layout.css'>
+	<link rel='stylesheet' type='text/css' href='product-style.css'>
+</head>
+
+<body>
+	<div class='menu'>
+		<a href='index.html'><img class='logoformat' src='image\logo.png'></a>
+		<ul>
+			<li><a href='index.html'>HOME</a></li>
+			
+			<li><a href='#' onclick="return false;">MEN</a>
+				<ul class = 'sublist'>
+					<li class = 'sublist'><a href='menbags.html'>BAGS</a></li>
+					<li class = 'sublist'><a href='menwallets.html'>WALLETS</a></li>
+					<li class = 'sublist'><a href='mencardcases.html'>CARD CASES</a></li>
+				</ul>
+			</li>
+			
+			<li><a href='#' onclick="return false;">WOMEN</a>
+				<ul class = 'sublist'>
+					<li class = 'sublist'><a href='womenbags.html'>BAGS</a></li>
+					<li class = 'sublist'><a href='womenwallets.html'>WALLETS</a></li>
+					<li class = 'sublist'><a href='womencardcases.html'>CARD CASES</a></li>
+				</ul>
+			</li>
+			<li><a href='team.html'>OUR TEAM</a></li>
+			<li><a href='tracker.html'>TRACKER</a></li>
+			<li><a href='cart.html'><img class='cartformat' src='image\cart.png'></a></li>
+        </ul>
+    </div>
+	<!--Code should go here, between menu and media divs-->
+
+<div style='min-height: 800px' class='cardcases'>
+	<ul class='cardcases'>
+		<li>
+			<div class='firstcardcase'>
+				<img src='image\firstcardcase.jpg' alt='Beige Lether Card Case' style='width:350px;height:400px;'>
+				<p>Beige Leather Card Case<br><i>$120</i></br></p>
+				<button id="myBtn1">Add to Cart</button>
+
+				
+				<div id="myModal1" class="modal">
+
+					
+					<div class="modal-content">
+						<span id="close" class="close1">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
+
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal1');
+					
+					var btn = document.getElementById("myBtn1");
+					
+					var span = document.getElementsByClassName("close1")[0];
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+			</div>
+		</li>
+		<li>
+			<div class='secondcardcase'>
+				<img src='image\secondcardcase.jpg' alt='Checkered Vintage Card Case' style='width:350px;height:400px;'>
+				<p>Checkered Vintage Card Case<br><i>$100</i></br></p>
+				<button id="myBtn2">Add to Cart</button>
+
+				
+				<div id="myModal2" class="modal">
+
+					
+					<div class="modal-content">
+						<span id="close2" class="close2">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
+
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal2');
+					
+					var btn = document.getElementById("myBtn2");
+					
+					var span = document.getElementsByClassName("close2")[0];
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
+			</div>
+		</li>
+		<li>
+			<div class='thirdcardcase'>
+				<img src='image\thirdcardcase.jpg' alt='Wool Checkered Case Case' style='width:350px;height:400px;'>
+				<p>Wool Checkered Case Case<br><i>$140</i></br></p>
+				<p><a href='sublist.html' target='_self'>Add to Cart</a></p>
+			</div>
+		</li>
+			
+		</ul>
+	</div>
+
+</body>
+
+	<div class='media'>
+		<div class = 'appbox'>
+			DOWNLOAD OUR APP
+			<br>
+			<img class = 'appformat' src='image\app.png'>
+			<br><br><br>
+			<small>LEGAL & COOKIES</small>
+		</div>
+		<div class = 'storebox'>
+			STORE LOCATOR
+			<br><br>
+			<u>View All Stores</u>
+			<br><br><br>
+			<div class = 'service'>
+				<small>CUSTOMER SERVICE</small>
+			</div>
+		</div>
+		<div class = 'followbox'>
+			FOLLOW US
+			<br><br>
+			<img class = 'iformat' src='image\twitter.png'>
+			<img class = 'iformat' src='image\facebook.png'>
+			<img class = 'iformat' src='image\insta.png'>
+			<br><br>
+			<div class = 'shipping'>
+				<small>SHIPPING</small>
+			</div>
+		</div>
+	</div>
+</body>
