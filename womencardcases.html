@@ -121,7 +121,40 @@
 			<div class='thirdcardcase'>
 				<img src='image\thirdcardcase.jpg' alt='Wool Checkered Case Case' style='width:350px;height:400px;'>
 				<p>Wool Checkered Case Case<br><i>$140</i></br></p>
-				<p><a href='sublist.html' target='_self'>Add to Cart</a></p>
+				<button id="myBtn3">Add to Cart</button>
+				
+				<div id="myModal3" class="modal">
+					
+					<div class="modal-content">
+						<span id="close3" class="close3">&times;</span>
+						<p><c>The following item has been added to your cart:</c></p>
+						<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
+
+					</div>
+
+				</div>
+				<script>
+					
+					var modal = document.getElementById('myModal3');
+					
+					var btn = document.getElementById("myBtn3");
+					
+					var span = document.getElementsByClassName("close3")[0];
+					
+					btn.onclick = function() {
+						modal.style.display = "block";
+					}
+					
+					span.onclick = function() {
+						modal.style.display = "none";
+					}
+					
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+				</script>
 			</div>
 		</li>
 			
