@@ -36,16 +36,16 @@
 			<div class='firstcardcase'>
 				<img src='image\menfirstcardcase.jpg' alt='Black & Yellow Leather Card Case' style='width:350px;height:400px;'>
 				<p>Black & Yellow Leather Card Case<br><i>$200</i></br></p>
-				<button id="myBtn1">Add to Cart</button>
+				<button id="myBtn1" onClick='add1()'>Add to Cart</button>
 
 				
 				<div id="myModal1" class="modal">
 
 					
 					<div class="modal-content">
-						<span id="close1" class="close1">&times;</span>
+						<button class="close1">&times;</button>
 						<p><c>The following item has been added to your cart:</c></p>
-						<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
+						<img src='image\menfirstcardcase.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
 
 					</div>
 
@@ -78,39 +78,37 @@
 			<div class='secondcardcase'>
 				<img src='image\mensecondcardcase.jpg' alt='Classic Black Kaia Card Case' style='width:350px;height:400px;'>
 				<p>Classic Black Kaia Card Case<br><i>$170</i></br></p>
-				<button id="myBtn2">Add to Cart</button>
+				<button id="myBtn2" onClick='add2()'>Add to Cart</button>
 
 				
 				<div id="myModal2" class="modal">
 
 					
 					<div class="modal-content">
-						<span id="close2" class="close2">&times;</span>
+						<button class="close2">&times;</button>
 						<p><c>The following item has been added to your cart:</c></p>
-						<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
+						<img src='image\mensecondcardcase.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
 
 					</div>
 
 				</div>
 				<script>
-					
-					var modal = document.getElementById('myModal2');
-					
-					var btn = document.getElementById("myBtn2");
-					
-					var span = document.getElementsByClassName("close2")[0];
-					
-					btn.onclick = function() {
+					add2 = function() {
+						var modal = document.getElementById('myModal2');
+						
 						modal.style.display = "block";
-					}
-					
-					span.onclick = function() {
-						modal.style.display = "none";
-					}
-					
-					window.onclick = function(event) {
-						if (event.target == modal) {
+						var btn = document.getElementById("myBtn2");
+						
+						var span = document.getElementsByClassName("close2")[0];
+						
+						span.onclick = function() {
 							modal.style.display = "none";
+						}
+						
+						window.onclick = function(event) {
+							if (event.target == modal) {
+								modal.style.display = "none";
+							}
 						}
 					}
 				</script>
@@ -120,39 +118,37 @@
 			<div class='thirdcardcase'>
 				<img src='image\menthirdcardcase.jpg' alt='Burgundy Travel Card Case' style='width:350px;height:400px;'>
 				<p>Burgundy Travel Case Case<br><i>$150</i></br></p>
-				<button id="myBtn3">Add to Cart</button>
+				<button id="myBtn3" onClick='add3()'>Add to Cart</button>
 
 				
 				<div id="myModal3" class="modal">
 
 					
 					<div class="modal-content">
-						<span id="close3" class="close3">&times;</span>
+						<button class="close3">&times;</button>
 						<p><c>The following item has been added to your cart:</c></p>
-						<img src='image\menfirstbag.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
+						<img src='image\menthirdcardcase.jpg' alt='Checkered Paris Bag' style='width:200px;height:220px;'>
 
 					</div>
 
 				</div>
 				<script>
-					
-					var modal = document.getElementById('myModal3');
-					
-					var btn = document.getElementById("myBtn3");
-					
-					var span = document.getElementsByClassName("close3")[0];
-					
-					btn.onclick = function() {
+					add3 = function() {
+						var modal = document.getElementById('myModal3');
+						
 						modal.style.display = "block";
-					}
-					
-					span.onclick = function() {
-						modal.style.display = "none";
-					}
-					
-					window.onclick = function(event) {
-						if (event.target == modal) {
+						var btn = document.getElementById("myBtn3");
+						
+						var span = document.getElementsByClassName("close3")[0];
+						
+						span.onclick = function() {
 							modal.style.display = "none";
+						}
+						
+						window.onclick = function(event) {
+							if (event.target == modal) {
+								modal.style.display = "none";
+							}
 						}
 					}
 				</script>
