@@ -49,7 +49,23 @@
 		</fieldset>
 
 	</form> 
-	<img class="tarrak" src="image\capture.png">
+	
+	<img src="image\chip.jpg" style='width:150px;height:150px; margin-left:-230px; margin-top:-200px;'>
+<a href="#" class="button">Link Button</a>
+<div id="googleMap" style="position: relative;left:700px;top: -180px;height:400px;width:800px"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtBoBRN_fVOogHVV7XMiEtcmpKgz6hPRM&callback=myMap"></script>
+
 
 	<div class='media'>
 		<div class = 'appbox'>
@@ -60,7 +76,7 @@
 			<small>LEGAL & COOKIES</small>
 		</div>
 		<div class = 'storebox'>
-			STORE LOCATOR
+			STORE LOCAT
 			<br><br>
 			<u>View All Stores</u>
 			<br><br><br>
@@ -79,5 +95,5 @@
 				<small>SHIPPING</small>
 			</div>
 		</div>
-	</div>
+	
 </body>
