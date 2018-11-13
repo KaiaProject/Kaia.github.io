@@ -1,10 +1,9 @@
-/*Replace code below with something useful*/
 .team {
 	font-size: 21px;
 	position: static;
 	top: 150px;
 	left: 2%;
-	min-height: 900px;
+	min-height: 2000px;
 	padding-bottom: 20px;
 }
 
@@ -18,29 +17,170 @@
 	min-height: 500px;
 }
 
+.team .team_title {
+	font-size: 15px;
+	position: absolute;
+	top: 500px;
+	width: 1500px;
+	font: 150% Impact;
+	left: 44%;
+	min-height: 500px;
+
+}
+
+.team .slogan {
+	font-size: 10px;
+	position: absolute;
+	top: 1790px;
+	width: 1500px;
+	font: 70% Verdana;
+	left: 65%;
+	min-height: 185px;
+}
+
 .team .fingerprint {
 	position: relative;
-	top: 550px;
-	left: 15%;
-	width: 15%;
-	height: 15%;
+	top: 1588px;
+	left: 13%;
+	width: 14%;
+	height: 8%;
 }
 
 .team .x {
 	position: relative;
-	top: 550px;
-	left: 25%;
-	width: 10%;
-	height: 15%;
+	top: 1600px;
+	left: 27%;
+	width: 12%;
+	height: 10%;
 }
 
 .team .kaia {
 	position: relative;
-	top: 550px;
-	left: 35%;
+	top: 1570px;
+	left: 42%;
+	max-width: 75%;
+	max-height: 75%; 
 	width: 20%;
-	height: 15%;
+	height: 6%;
+}
+	
+.team .circle_1 img {
+	position: relative;
+	top:400px; 
+	left: 15%;
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 200px;
 }
 
+.team .circle_2 img {
+	position: relative;
+	top:80px; 
+	left: 65%;
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 200px;
+}	
 
+.team .circle_3 img {
+	position: relative;
+	top:280px; 
+	left: 15%;
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 200px;
+}		
+
+.team .circle_4 img {
+	position: relative;
+	top:-45px; 
+	left: 65%;
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 200px;
+}
+
+.team .list_1 {
+	font-size: 20px;
+	position: absolute;
+	top: 990px;
+	left: 14%;
+	font: 70% Verdana;
+	min-height: 500px;
+}
+
+.team .list_2 {
+	font-size: 20px;
+	position: absolute;
+	top: 1000px;
+	left: 63%;
+	font: 70% Verdana;
+	min-height: 500px;
+}
+
+.team .list_3 {
+	font-size: 20px;
+	position: absolute;
+	top: 1525px;
+	left: 10%;
+	font: 70% Verdana;
+	min-height: 500px;
+}
+
+.team .list_4 {
+	font-size: 20px;
+	position: absolute;
+	top: 1525px;
+	left: 61%;
+	font: 70% Verdana;
+	min-height: 500px;
+}
+
+.team .name_1 a {
+  /*color: #DEC9FF;*/
+  position: absolute;
+  color: #6a40eb;
+  top: 950px;
+  left: 15%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.team .name_2 a {
+  /*color: #DEC9FF;*/
+  position: absolute;
+  color: #6a40eb;
+  top: 953px;
+  left: 69%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.team .name_3 a {
+  /*color: #DEC9FF;*/
+  position: absolute;
+  color: #6a40eb;
+  top: 1485px;
+  left: 19%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.team .name_4 a {
+  /*color: #DEC9FF;*/
+  position: absolute;
+  color: #6a40eb;
+  top: 1485px;
+  left: 69%;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
