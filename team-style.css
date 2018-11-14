@@ -1,6 +1,6 @@
 .team {
 	font-size: 21px;
-	position: static;
+	position: static; 
 	top: 150px;
 	left: 2%;
 	min-height: 2000px;
@@ -22,8 +22,8 @@
 	position: absolute;
 	top: 500px;
 	width: 1500px;
-	font: 150% Impact;
-	left: 44%;
+	font: 120% Verdana;
+	left: 43%;
 	min-height: 500px;
 
 }
@@ -31,10 +31,10 @@
 .team .slogan {
 	font-size: 10px;
 	position: absolute;
-	top: 1790px;
+	top: 1775px;
 	width: 1500px;
 	font: 70% Verdana;
-	left: 65%;
+	left: 66%;
 	min-height: 185px;
 }
 
@@ -56,12 +56,12 @@
 
 .team .kaia {
 	position: relative;
-	top: 1570px;
+	top: 1550px;
 	left: 42%;
 	max-width: 75%;
 	max-height: 75%; 
 	width: 20%;
-	height: 6%;
+	height: 5%;
 }
 	
 .team .circle_1 img {
@@ -147,40 +147,44 @@
 .team .name_1 a {
   /*color: #DEC9FF;*/
   position: absolute;
-  color: #6a40eb;
+  color: #030303;
   top: 950px;
-  left: 15%;
+  left: 11%;
   font-weight: bold;
-  text-decoration: underline;
+  font: 70% Verdana;
+  text-decoration: none;
 }
 
 .team .name_2 a {
   /*color: #DEC9FF;*/
   position: absolute;
-  color: #6a40eb;
+  color: #030303;
   top: 953px;
-  left: 69%;
+  left: 62%;
   font-weight: bold;
-  text-decoration: underline;
+  font: 70% Verdana;
+  text-decoration: none;
 }
 
 .team .name_3 a {
   /*color: #DEC9FF;*/
   position: absolute;
-  color: #6a40eb;
+  color: #030303;
   top: 1485px;
-  left: 19%;
+  left: 13%;
   font-weight: bold;
-  text-decoration: underline;
+  font: 70% Verdana;
+  text-decoration: none;
 }
 
 .team .name_4 a {
   /*color: #DEC9FF;*/
   position: absolute;
-  color: #6a40eb;
+  color: #030303;
   top: 1485px;
-  left: 69%;
+  left: 63%;
   font-weight: bold;
-  text-decoration: underline;
+  font: 70% Verdana;
+  text-decoration: none;
 }
 
